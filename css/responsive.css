@@ -1,0 +1,87 @@
+@media (max-width:1300px){
+    /* 2 Navbar */
+    .header_wrapper .menu_navbar_nav{
+        width: auto;
+    }
+}
+
+@media (max-width:1200px){
+    /* 2 Navbar */
+    .header_wrapper .nav-item{
+        margin: 0 5px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 7px 10px !important;
+    }
+
+    /* 3 Banner */
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1050px){
+    /* 2 Navbar */
+    .header_wrapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+    /* 5 About */
+    .about_wrapper .about_title{
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width:991px){
+    /* 2 Navbar */
+    .header_wrapper .nav-brand img{
+        width: 180px;
+    }
+    .header_wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrapper .menu_navbar_nav{
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .header_wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header_wrapper .learn-more-btn{
+        padding: 10px 29px !important;
+    }
+    .header_wrapper .navbar-collapse{
+        background-color: var(--bg-white);
+    }
+    /* 3 Banner */
+    .banner_wrapper .banner-title{
+        font-size: 35px;
+    }  
+    /*  5 About */
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn_more_btn_section{
+        justify-content: center;
+    }
+
+    /* 7 Pricing */
+    .free_trial .free_title{
+        font-size: 24px;
+    }
+}
+
+
