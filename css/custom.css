@@ -345,6 +345,7 @@ body {
     line-height: 1.5;
     margin-bottom: 5px;
     color: var(--text-light-2);
+    margin-bottom: 15px;
 }
 
 .features_wrapper .features_title {
@@ -622,14 +623,14 @@ body {
 
 /* 8  Reviews */
 .testimonial_wrapper {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .testimonial_wrapper .testimonial_subtitle {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
     color: var(--text-light-3);
 }
 
@@ -638,7 +639,7 @@ body {
     font-size: 34px;
     font-weight: 800;
     line-height: 1.25;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     color: var(--text-black);
 }
 
@@ -673,7 +674,7 @@ body {
 
 /* 9 Brand */
 .brand_wrapper {
-    padding: 100px 0;
+    padding: 30px 0;
     background: var(--bg-light-2);
 }
 
@@ -697,7 +698,7 @@ body {
 .brand_wrapper .showcase_card img {
     width: 100%;
     border-radius: 15px;
-    padding: 45px 025px;
+    padding: 45px 25px;
     background: var(--bg-white);
     box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
     margin-bottom: 20px;
