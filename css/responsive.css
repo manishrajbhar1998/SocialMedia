@@ -114,4 +114,45 @@
     .free_trial .free_title {
         font-size: 24px;
     }
+
+    /* contact */
+    .contact form .col2 {
+        flex-direction: column;
+    }
+
+    .contact form input {
+        width: 100%;
+    }
+
+    .contact form .col1 input {
+        width: 100%;
+    }
+
+    .contact form .col2 div input {
+        width: 100%;
+    }
+
+    .contact form .col3 textarea {
+        width: 100%;
+    }
+
+    .contact form button {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .contact .detail p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .contact .detail .col-12 .fas {
+        padding: 13px 14px;
+        background-color: #292d3a;
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
 }

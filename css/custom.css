@@ -165,10 +165,15 @@ body {
     background-size: cover;
     background-position: center;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+
+
 }
 
-.banner_wrapper .container {}
+.banner_wrapper .container {
+    /* border: 1px solid #000; */
+    margin-top: 25px;
+}
 
 .banner_wrapper .carousel-control-next-icon,
 .banner_wrapper .carousel-control-prev-icon {
@@ -756,6 +761,101 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+}
+
+/* Contact1 section */
+
+.contact_wrapper .contact_title {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    color: var(--text-black);
+}
+
+
+.contact .message h2 {
+    font-weight: 600;
+}
+
+.contact .form {
+    padding: 40px 20px;
+    box-shadow: 0 0.3px 10px 0.3px rgb(236, 235, 235);
+    border-radius: 5px;
+}
+
+.contact .form input {
+    padding: 7px;
+    margin-bottom: 40px;
+}
+
+.contact .form label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #292d3a;
+}
+
+.contact form .col1 input {
+    width: 95%;
+}
+
+.contact form .col2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact form .col2 div {
+    width: 100%;
+}
+
+.contact form .col2 div input {
+    width: 90%;
+}
+
+.contact form .col3 textarea {
+    width: 95%;
+    height: 25%;
+}
+
+.contact form button {
+    background-color: var(--text-yellow);
+    color: #fff;
+    padding: 12px 40px;
+    margin-top: 40px;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: all .3s;
+}
+
+.contact form button:hover {
+    color: #292d3a;
+    border: 2px solid #292d3a;
+    background: transparent;
+}
+
+.contact .detail .col-12 {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0.2px 7px .2px rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact .detail p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact .detail .col-12 .fas {
+    padding: 15px 16px;
+    background-color: var(--bg-dark-green);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 /* 11 Footer */
