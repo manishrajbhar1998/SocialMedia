@@ -90,8 +90,21 @@
 }
 
 @media (max-width:767px) {
+
+    .header_wrapper .navbar {
+        padding: 0 10px;
+    }
+
+    .header_wrapper .navbar-brand img {
+        max-width: 50px;
+    }
+
+    .header_scrolled {
+        height: 70px;
+    }
+
     .banner_wrapper {
-        padding: 100px 0 100px;
+        /* padding: 100px 0 100px; */
     }
 
     .banner_wrapper .row {
@@ -108,6 +121,12 @@
 
     .banner_wrapper .carousel-control-next-icon {
         right: 0px;
+    }
+
+    .features_wrapper .ft-1,
+    .features_wrapper .ft-2,
+    .features_wrapper .ft-3 {
+        padding: 20px;
     }
 
     /* 7 Pricing */
