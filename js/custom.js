@@ -21,6 +21,27 @@ navbar.forEach(function (a) {
 
 //  Owl Carousel
 $(document).ready(function () {
+    $(".owl-testimonial").owlCarousel({
+        items: 3,
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        margin: 20,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
     $(".owl-carousel").owlCarousel({
         items: 4,
         loop: true,
@@ -35,14 +56,17 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
-                items: 3
+                items: 2
             },
             1000: {
                 items: 3
             }
         }
     })
+
+
 });
+
 
 
 

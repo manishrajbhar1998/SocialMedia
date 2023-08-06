@@ -17,9 +17,9 @@
         padding: 7px 10px !important;
     }
 
-    /* 3 Banner */
-    .banner_wrapper .banner-title {
-        font-size: 50px;
+    .testimonial_wrapper .testimonial_card {
+        width: 65%;
+
     }
 }
 
@@ -30,19 +30,10 @@
         font-size: 16px;
     }
 
-    /* 5 About */
-    .about_wrapper .about_title {
-        font-size: 16px;
-    }
+    .testimonial_wrapper .testimonial_card {
+        width: 70%;
 
-    .banner_wrapper .carousel-control-prev-icon {
-        left: -80px;
     }
-
-    .banner_wrapper .carousel-control-next-icon {
-        right: -80px;
-    }
-
 }
 
 @media (max-width:991px) {
@@ -77,14 +68,8 @@
         background-color: var(--bg-white);
     }
 
-    /* 3 Banner */
-    .banner_wrapper .banner-title {
-        font-size: 35px;
-    }
-
-    /*  5 About */
-    .about_wrapper .about_number {
-        margin: 20px auto;
+    .testimonial_wrapper .testimonial_card {
+        width: 85%;
     }
 
 }
@@ -103,24 +88,11 @@
         height: 70px;
     }
 
-    .banner_wrapper {
-        /* padding: 100px 0 100px; */
-    }
 
-    .banner_wrapper .row {
-        flex-direction: column-reverse;
-    }
-
-    .banner_wrapper .learn_more_btn_section {
-        justify-content: center;
-    }
-
-    .banner_wrapper .carousel-control-prev-icon {
-        left: 0px;
-    }
-
-    .banner_wrapper .carousel-control-next-icon {
-        right: 0px;
+    .about_wrapper .about_text {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 20px;
     }
 
     .features_wrapper .ft-1,
@@ -129,9 +101,21 @@
         padding: 20px;
     }
 
-    /* 7 Pricing */
-    .free_trial .free_title {
-        font-size: 24px;
+    .servcies_wrapper .servcie_card {
+
+        padding: 20px;
+    }
+
+    /* testimonial section */
+    .testimonial_wrapper .testimonial_card {
+        width: 99%;
+        flex-direction: column;
+    }
+
+    .testimonial_wrapper .testimonial_card_img {}
+
+    .testimonial_wrapper .testimonial_card_img img {
+        margin-bottom: 20px;
     }
 
     /* contact */
