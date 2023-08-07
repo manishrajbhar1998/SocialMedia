@@ -72,6 +72,10 @@
         width: 85%;
     }
 
+    .owl-nav {
+        padding: 0 0px;
+    }
+
 }
 
 @media (max-width:767px) {
@@ -101,8 +105,17 @@
         padding: 20px;
     }
 
-    .servcies_wrapper .servcie_card {
+    /* .servcies_wrapper .servcie_card {
 
+        padding: 20px;
+    } */
+
+    .servcies_wrapper .servcie_card {
+        height: auto;
+    }
+
+    .servcie_card .service_content {
+        margin-bottom: 50px;
         padding: 20px;
     }
 
@@ -111,8 +124,6 @@
         width: 99%;
         flex-direction: column;
     }
-
-    .testimonial_wrapper .testimonial_card_img {}
 
     .testimonial_wrapper .testimonial_card_img img {
         margin-bottom: 20px;
@@ -157,5 +168,22 @@
         border-radius: 50%;
         margin-right: 15px;
     }
+}
 
+@media (max-width:450px) {
+
+    /* testimonial section */
+    .testimonial_wrapper .testimonial_card {
+        padding: 10px;
+    }
+
+    .testimonial_card_content .name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .testimonial_card_content .rating i {
+        color: var(--text-yellow);
+        font-size: 14px;
+    }
 }
