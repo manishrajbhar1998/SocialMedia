@@ -333,6 +333,7 @@ body {
     overflow: scroll;
     object-fit: cover;
     height: 100vh */
+
 }
 
 .servcies_wrapper .servcie_subtitle {
@@ -357,10 +358,13 @@ body {
 
 .servcies_wrapper .servcie_card {
     height: 300px;
+    /* border: 1px solid #000; */
 }
 
 .servcie_card .service_img {
     height: 100%;
+    width: 100%;
+
 }
 
 .servcie_card .service_img img {
@@ -371,15 +375,17 @@ body {
 
 .servcie_card .service_content {
     height: 100%;
-    /* max-height: 280px; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
     border: 3px solid var(--bg-features-1);
     /* background: rgba(235, 231, 231, 0.3); */
+    margin: 0;
+
+
 }
 
 .servcie_card .service_content .title {
@@ -691,4 +697,125 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--bg-black);
+}
+
+
+/* service page */
+
+
+.service_page {
+    /* border: 1px solid #000; */
+}
+
+.service_page_header {
+    background: #2a2929;
+}
+
+.service_page_header .servcie_title,
+.service_page_header .servcie_subtitle {
+    color: #fff;
+}
+
+.service_page_1 {
+    background: url("/images_2/wdding_service.jpg");
+    height: 500px;
+
+}
+
+.service_page_2 {
+    background: url("/images_2/decor_service.jpeg");
+}
+
+.service_page_3 {
+    background: url("/images_2/social_service.jpg");
+}
+
+.service_page_4 {
+    background: url("/images_2/corparate_1.jpg");
+}
+
+.service_page_5 {
+    background: url("/images_2/social_4.jpg");
+}
+
+.service_page_6 {
+    background: url("/images_2/logistics_vendor_management.jpg");
+}
+
+.service_page {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.service_page_img {
+    height: 400px
+}
+
+.service_page_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px 30px 50px;
+}
+
+.service_page_1 .service_page_content {
+    background: #fff;
+    color: #000;
+}
+
+.service_page_2 .service_page_content {
+    background: #000;
+    color: #fff;
+}
+
+.service_page_3 .service_page_content {
+    background: #fff;
+    color: #000;
+}
+
+.service_page_4 .service_page_content {
+    background: #000;
+    color: #fff;
+}
+
+.service_page_5 .service_page_content {
+    background: #fff;
+    color: #000;
+}
+
+.service_page_6 .service_page_content {
+    background: #000;
+    color: #fff;
+}
+
+.service_page_content .title {
+    font-size: 35px;
+    font-weight: 600;
+    /* border: 1px solid #000; */
+    position: relative;
+}
+
+.service_page_content .title::before {
+    content: "";
+    width: 15%;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background: var(--bg-dark-green);
+}
+
+.service_page_content .desc {
+    font-size: 16px;
+}
+
+.service_page_content .desc span {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
 }
