@@ -63,6 +63,15 @@
   <!-- CUSTOM FILE'S LINK -->
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- email js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("JZnVfs5M-tKd2YID1");
+    })();
+  </script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offsets="85">
@@ -101,6 +110,21 @@
       </div>
     </nav>
   </header>
+
+  <!-- whatsapp icon -->
+  <div class="whatsapp_wrapper">
+    <a href="https://wa.me/9156270216">
+      <i class="fab fa-whatsapp-square"></i>
+    </a>
+
+  </div>
+
+  <!-- loader -->
+  <div class="loader_wrapper">
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
 
   <!-- Banner section -->
   <section id="home" class="banner_wrapper">
@@ -525,33 +549,50 @@
       </div>
       <div class="row">
         <div class="col-12  col-lg-6 form">
-          <form method="post">
+          <form method="post" class="needs-validation" novalidate>
             <div class="col1">
-              <label for="">Name</label><br>
-              <input type="text" name="name">
+              <label for="name">Name</label><br>
+              <input type="text" name="name" id="name">
+              <div class="error name_error">
+
+              </div>
             </div>
             <div class="col2">
               <div>
-                <label for="">Email</label><br>
-                <input type="email" name="email"><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"><br>
+                <div class="error email_error">
+
+                </div>
               </div>
               <div>
-                <label for="">Phone</label><br>
-                <input type="number" name="number">
+                <label for="phone">Phone</label><br>
+                <input type="number" name="phone" id="phone">
+                <div class="error phone_error">
+
+                </div>
               </div>
             </div>
             <div class="col1">
-              <label for="">Type of event</label><br>
-              <input type="text" name="number">
+              <label for="event_type">Type of event</label><br>
+              <input type="text" name="event_type" id="event_type">
+              <div class="error event_error">
+
+              </div>
             </div>
             <div class="col2">
               <div>
-                <label for="">City</label><br>
-                <input type="text" name="email"><br>
+                <label for="city">City</label><br>
+                <input type="text" name="city" id="city"><br>
+                <div class="error city_error">
+
+                </div>
               </div>
               <div>
-                <label for="">Preferred event date</label><br>
-                <input type="date" name="number">
+                <label for="date">Preferred event date</label><br>
+                <input type="date" name="date" id="date">
+                <div class="error date_error">
+                </div>
               </div>
             </div>
             <div class="col3">
@@ -561,7 +602,7 @@
                 <label for="floatingTextarea">Any special request</label>
               </div>
             </div>
-            <button name="submit" id="btn">Submit</button>
+            <button name="submit" id="submit_btn">Submit</button>
           </form>
         </div>
         <div class="col-12 col-lg-6 detail p-1 p-md-4">
