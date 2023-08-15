@@ -142,8 +142,6 @@ submit_btn.addEventListener("click", async function (e) {
         nextFlag = false;
         alert("Please complete the form before proceeding ");
     }
-
-
     if (nextFlag) {
         loader.style.display = "flex";
         const service_ID = "service_4iccn3l";
@@ -178,10 +176,6 @@ submit_btn.addEventListener("click", async function (e) {
 
 
     }
-
-
-
-
 })
 
 

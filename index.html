@@ -91,19 +91,21 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav menu_navbar_nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+
+              <a class="nav-link active" aria-current="page" href="#home"><i class="fas fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about"><i class="far fa-address-card"></i> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/service.html">Services</a>
+              <a class="nav-link" href="#servcies"><i class="fas fa-cogs"></i> Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Review</a>
+              <a class="nav-link" href="#testimonial"><i class="fas fa-eye"></i> Review</a>
             </li>
             <li class="nav-item text-center">
-              <a class="nav-link learn-more-btn btn-extra-header" href="#contact">Contact</a>
+              <a class="nav-link learn-more-btn btn-extra-header" href="#contact"><i class="fas fa-phone-volume"></i>
+                Contact</a>
             </li>
           </ul>
         </div>
@@ -114,6 +116,7 @@
   <!-- whatsapp icon -->
   <div class="whatsapp_wrapper">
     <a href="https://wa.me/9156270216">
+      <!-- <span class="live_chat">live chat</span> -->
       <i class="fab fa-whatsapp-square"></i>
     </a>
 
@@ -213,6 +216,9 @@
       <div class="row mt-3">
         <div class="col-lg-4 col-sm-6 mb-5">
           <div class="ft-1">
+            <div class="feature_img">
+              <img src="./images_2/experience.png" class="img-fluid" alt="">
+            </div>
             <h3>Expertise and Experience</h3>
             <p class="features_text">
               Our team boasts years of experience in the event management industry. From small-scale gatherings to
@@ -222,6 +228,9 @@
         </div>
         <div class="col-lg-4 col-sm-6 mb-5">
           <div class="ft-2">
+            <div class="feature_img">
+              <img src="./images_2/personalize.png" class="img-fluid" alt="">
+            </div>
             <h3>Personalized Approach</h3>
             <p class="features_text">
               We understand that every event is unique, and that's why we tailor our services to suit your specific
@@ -232,6 +241,9 @@
         </div>
         <div class="col-lg-4 col-sm-6 mb-5">
           <div class="ft-3">
+            <div class="feature_img">
+              <img src="./images_2/attention.png" class="img-fluid" alt="">
+            </div>
             <h3>Attention to Detail</h3>
             <p class="features_text">
               We believe that the magic lies in the details. Our meticulous approach means that no aspect is overlooked,
@@ -558,7 +570,7 @@
               </div>
             </div>
             <div class="col2">
-              <div>
+              <div class="mb-sm-3 mb-md-0">
                 <label for="email">Email</label><br>
                 <input type="email" name="email" id="email"><br>
                 <div class="error email_error">
@@ -585,10 +597,9 @@
                 <label for="city">City</label><br>
                 <input type="text" name="city" id="city"><br>
                 <div class="error city_error">
-
                 </div>
               </div>
-              <div>
+              <div class="mt-3 mt-md-0">
                 <label for="date">Preferred event date</label><br>
                 <input type="date" name="date" id="date">
                 <div class="error date_error">
