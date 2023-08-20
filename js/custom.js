@@ -1,8 +1,3 @@
-// Header Scroll
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
-// require('../css');
-
 
 let nav = document.querySelector('.navbar');
 window.onscroll = function () {
