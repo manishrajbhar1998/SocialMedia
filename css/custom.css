@@ -497,6 +497,8 @@ body {
     border: 5px solid #fff;
     border-radius: 10px;
     padding: 30px;
+    border: 10px solid #000;
+    height: 200px;
 }
 
 .testimonial_wrapper .card-1 {
@@ -750,11 +752,11 @@ body {
 }
 
 .service_page_4 {
-    background: url("/images_2/corparate_1.jpg");
+    background: url("/images_2/charity_service.jpg");
 }
 
 .service_page_5 {
-    background: url("/images_2/social_4.jpg");
+    background: url("/images_2/corporate_service.jpg");
 }
 
 .service_page_6 {

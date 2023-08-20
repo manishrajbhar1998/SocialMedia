@@ -1,4 +1,8 @@
 // Header Scroll
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+// require('../css');
+
 
 let nav = document.querySelector('.navbar');
 window.onscroll = function () {
@@ -42,7 +46,7 @@ $(document).ready(function () {
             }
         }
     })
-    $(".owl-carousel").owlCarousel({
+    $(".owl-gallary").owlCarousel({
         items: 4,
         loop: true,
         nav: false,
@@ -74,6 +78,7 @@ const submit_btn = document.querySelector('#submit_btn');
 submit_btn.addEventListener("click", async function (e) {
     e.preventDefault();
 
+    console.log("button clicked");
     // loader
     let loader = document.querySelector('.loader_wrapper');
     // input
